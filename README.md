@@ -1,2 +1,2 @@
 # Decorando_ingles
-Site que te ajuda a decorar e aprender inglês
+Site que te ajuda a aprender e decorar o inglês
