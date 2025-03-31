@@ -1,0 +1,200 @@
+/* cores_organizacao_paginas.css */
+body {
+    background-image: url('estrelas.png'); /* Caminho para a imagem */
+    color: white;
+}
+
+.botao_avancar_1,.botao_avancar_2,.botao_voltar_2,.botao_avancar_3,.botao_voltar_3,.botao_avancar_4,.botao_voltar_4,
+.botao_avancar_5,.botao_voltar_5,.botao_avancar_6,.botao_voltar_6,.botao_avancar_7,.botao_voltar_7,
+.botao_avancar_8,.botao_voltar_8,.botao_avancar_9,.botao_voltar_9,.botao_avancar_10,.botao_voltar_10,
+.botao_avancar_11,.botao_voltar_11,.botao_avancar_12,.botao_voltar_12,.botao_avancar_13,.botao_voltar_13,
+.botao_avancar_14,.botao_voltar_14,.botao_avancar_15,.botao_voltar_15,.botao_avancar_16,.botao_voltar_16,
+.botao_avancar_17,.botao_voltar_17,.botao_avancar_18,.botao_voltar_18,.botao_avancar_19,.botao_voltar_19,
+.botao_avancar_20,.botao_voltar_20,.botao_avancar_21,.botao_voltar_21,.botao_avancar_22,.botao_voltar_22,
+.botao_avancar_23,.botao_voltar_23{
+
+    border-radius: 30px; /* Bordas redondas */
+    border: 5px solid #06f8f4; /* Adiciona uma borda dourada */   
+    background-color: #ffc400; /* Cor de fundo transparente */
+    color: #FFFFFF; /* Cor do texto */
+    width: 100px; /* Largura da imagem */
+    height: 70px; /* Altura da imagem */
+    font-size: 20px; /* Tamanho da fonte */
+    font-family: 'Great Vibes', cursive; /* Fonte elegante */
+    margin-right: 50px; /* Adiciona espaço à direita de cada botão */
+    
+}
+
+/* ============================================================================================================= */
+
+/* DIV */
+.botoes_1,.botoes_2,.botoes_3,.botoes_4,.botoes_5,.botoes_6,.botoes_7,.botoes_8,.botoes_9,.botoes_10,.botoes_11,
+.botoes_12,.botoes_13,.botoes_14,.botoes_15,.botoes_16,.botoes_17,.botoes_18,.botoes_19,.botoes_20,
+.botoes_21,.botoes_22,
+.botoes_23{
+
+    text-align: center; /* Alinhamento do texto */
+    padding: 10px; /* Espaçamento interno das células */
+    
+}
+
+/* ======================================================================================================*/
+
+/* esconder divs */
+/* DIV */
+.botoes_2,.botoes_3,.botoes_4,.botoes_5,.botoes_6,.botoes_7,.botoes_8,.botoes_9,.botoes_10,.botoes_11,
+.botoes_12,.botoes_13,.botoes_14,.botoes_15,.botoes_16,.botoes_17,.botoes_18,.botoes_19,.botoes_20,
+.botoes_21,.botoes_22,
+.botoes_23{
+    display:none;   
+}
+/* ====================================================================================================== */
+
+#vinte_frases,#trinta_frases,#quarenta_frases,#cinquenta_frases,#sessenta_frases,#setenta_frases,
+#oitenta_frases,#noventa_frases,#cem_frases,#cem10_frases,#cem20_frases,#cem30_frases,
+#cem40_frases,#cem50_frases,#cem60_frases,#cem70_frases,#cem80_frases,#cem90_frases,
+#duzentos_frases,#duzentos10_frases,#duzentos20_frases,#duzentos30_frases{
+
+    display:none;   
+
+}
+
+#div_imagem_titulo {
+    display: flex; /* Define o layout flexível */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    
+    gap: 20px; /* Espaçamento entre os elementos */
+}
+
+/* Versiculo */
+#versiculo_h1 {
+    color: #FFD700; /* Cor dourada */
+    background-color: #640d0db9; /* Cor de fundo */
+    font-size: 18px; /* Tamanho da fonte */
+    text-align: center; /* Alinhamento do texto */
+    font-family: 'Great Vibes', cursive; /* Fonte elegante */
+    border-radius: 15px; /* Bordas redondas */
+    border: 1px solid #FFD700; /* Adiciona uma borda dourada */
+    width: 1200px; /* Largura da div */
+    
+}
+
+
+/* titulo da pagina */
+#animacao_h1 {
+    color: #FFFFFF; /* Cor do texto */
+    background-color: transparent; /* Cor de fundo transparente */
+    font-size: 24px; /* Tamanho da fonte */
+    text-align: center; /* Alinhamento do texto */
+}
+
+#imagem_inicial {
+
+    width: 185px; /* Largura da imagem */
+    height: 155px; /* Altura automática para manter a proporção */
+    border-radius: 25px; /* Bordas redondas */
+
+}
+
+/* Editando os elementos dessa tag */
+.imagem_inicial {
+    display: flex; /* Define o layout flexível */
+    justify-content: center; /* Centraliza os elementos horizontalmente */
+    align-items: center; /* Centraliza os elementos verticalmente */
+    gap: 90px; /* Espaçamento entre os elementos */
+}
+
+
+/* Editando as imagens nessa classe, tamanhos e bordas */
+.imagem_inicial img {
+    width: 185px; /* Largura da imagem */
+    height: 155px; /* Altura da imagem */
+    border-radius: 25px; /* Bordas redondas */
+    gap: 30px; /* Espaçamento entre os elementos */
+    align-items: center;  
+      
+}
+
+/* titulo da pagina */
+#animacao_h2 {
+    color: #FFFFFF; /* Cor do texto */
+    background-color: transparent; /* Cor de fundo transparente */
+    font-size: 24px; /* Tamanho da fonte */
+    text-align: center; /* Alinhamento do texto */
+    border-radius: 20px; /* Bordas redondas */
+    border: 1px solid #141413; /* Adiciona uma borda dourada */
+}
+
+/* titulo da pagina */
+#animacao_h3 {
+    color: #FFFFFF; /* Cor do texto */
+    background-color: transparent; /* Cor de fundo transparente */
+    font-size: 24px; /* Tamanho da fonte */
+    text-align: center; /* Alinhamento do texto */
+    border-radius: 20px; /* Bordas redondas */
+    border: 1px solid #141413; /* Adiciona uma borda dourada */
+}
+
+/* titulo da pagina */
+#ex_verbo_to_be{
+    color: #FFFFFF; /* Cor do texto */
+    background-color: transparent; /* Cor de fundo transparente */
+    font-size: 24px; /* Tamanho da fonte */
+    text-align: center; /* Alinhamento do texto */
+    
+    color:#d0fb9c; /* Cor azul claro */ 
+
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5), /* Sombra para efeito metálico */
+    0 0 10px rgba(137, 207, 240, 0.7), 
+    0 0 15px rgba(137, 207, 240, 0.9)
+}
+
+
+/* Estilo para a tela escura */
+#tela_estrelas {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-image: url('estrelas.png'); /* Caminho para a imagem */
+z-index: 9999;
+display: none; /* Inicialmente escondida */
+}
+
+
+/* Estilo para a tabela */
+table{
+width: 100%; /* Largura da tabela */
+border-collapse: collapse; /* Remove espaços entre as células */
+}
+/* Estilo para as células da tabela */
+th, td{
+border: 1px solid rgb(190, 18, 18); /* Borda das células */
+padding: 8px; /* Espaçamento interno das células */
+text-align: center; /* Alinhamento do texto à esquerda */
+/*border-radius: 20px; /* Bordas redondas */
+
+}
+
+
+/* Estilo para os cabeçalhos da tabela */
+th {
+ background-color: #072ff4; /* Cor de fundo dos cabeçalhos */
+ /*border-radius: 20px;  Bordas redondas */
+}
+
+/* Estilo para os cabeçalhos da tabela */
+#linhas_conteudo{
+    background-color: transparent; /* Cor de fundo transparente */
+    
+   }
+
+/* Cores e estilo dos quadros de preencher*/
+#linha_1, #linha_2, #linha_3, #linha_4, #linha_5, #linha_6, #linha_7{
+    border-radius: 7px; /* Bordas redondas */
+    border: 5px solid #e0c735; /* Adiciona uma borda dourada */
+}
+
+/* ============================================================================================================= */
+
