@@ -168,14 +168,18 @@ table{
 width: 100%; /* Largura da tabela */
 border-collapse: collapse; /* Remove espaços entre as células */
 }
+
+
 /* Estilo para as células da tabela */
 th, td{
 border: 1px solid rgb(190, 18, 18); /* Borda das células */
 padding: 8px; /* Espaçamento interno das células */
-text-align: center; /* Alinhamento do texto à esquerda */
+text-align: center; /* Alinhamento do texto no centro */
 /*border-radius: 20px; /* Bordas redondas */
-
 }
+
+/* Estilo para as linhas da tabela */
+
 
 
 /* Estilo para os cabeçalhos da tabela */
@@ -198,3 +202,86 @@ th {
 
 /* ============================================================================================================= */
 
+/* Estilo para os botões de resposta ****************************************************************************/
+@keyframes piscar {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#resposta_correta1,#resposta_correta2,#resposta_correta3,
+#resposta_correta4,#resposta_correta5,#resposta_correta6,
+#resposta_correta7,#resposta_correta8,#resposta_correta9,
+#resposta_correta10,#resposta_correta11,#resposta_correta12,
+#resposta_correta13,#resposta_correta14,#resposta_correta15,
+#resposta_correta16,#resposta_correta17,#resposta_correta18,
+#resposta_correta19,#resposta_correta20,#resposta_correta21,
+#resposta_correta22,#resposta_correta23,#resposta_correta24,
+#resposta_correta25,#resposta_correta26,#resposta_correta27,
+#resposta_correta28,#resposta_correta29,#resposta_correta30
+{
+    color: #00ff00; /* Cor do texto */
+    border: none; /* Remove as linhas ao redor */
+    width: 1%; /* Ajusta a largura para 1% do elemento pai */
+    height: 1px; /* Ajusta a altura para 1 pixel */
+    font-family: 'Great Vibes', cursive; /* Fonte elegante */
+    animation: piscar 1s infinite; /* Animação de piscar */    
+}
+
+#resposta_incorreta1,#resposta_incorreta2,#resposta_incorreta3,
+#resposta_incorreta4,#resposta_incorreta5,#resposta_incorreta6,
+#resposta_incorreta7,#resposta_incorreta8,#resposta_incorreta9,
+#resposta_incorreta10,#resposta_incorreta11,#resposta_incorreta12,
+#resposta_incorreta13,#resposta_incorreta14,#resposta_incorreta15,
+#resposta_incorreta16,#resposta_incorreta17,#resposta_incorreta18,
+#resposta_incorreta19,#resposta_incorreta20,#resposta_incorreta21,
+#resposta_incorreta22,#resposta_incorreta23,#resposta_incorreta24,
+#resposta_incorreta25,#resposta_incorreta26,#resposta_incorreta27,
+#resposta_incorreta28,#resposta_incorreta29,#resposta_incorreta30
+{
+    color: #ff0000;/* Cor do texto */
+    border: none; /* Remove as linhas ao redor */
+    width: 1%; /* Ajusta a largura para 1% do elemento pai */
+    height: 1px; /* Ajusta a altura para 1 pixel */
+    font-family: 'Great Vibes', cursive; /* Fonte elegante */
+    animation: piscar 1s infinite; /* Animação de piscar */
+}
+/* ============================================================================================================= */
+
+/* Linhas dos exercicios primeira tabela */
+#ex1_escrita_1,#ex1_pronuncia_1,#ex1_traducao_1,
+#ex1_escrita_2,#ex1_pronuncia_2,#ex1_traducao_2,
+#ex1_escrita_3,#ex1_pronuncia_3,#ex1_traducao_3,
+#ex1_escrita_4,#ex1_pronuncia_4,#ex1_traducao_4,
+#ex1_escrita_5,#ex1_pronuncia_5,#ex1_traducao_5,
+#ex1_escrita_6,#ex1_pronuncia_6,#ex1_traducao_6,
+#ex1_escrita_7,#ex1_pronuncia_7,#ex1_traducao_7,
+#ex1_escrita_8,#ex1_pronuncia_8,#ex1_traducao_8,
+#ex1_escrita_9,#ex1_pronuncia_9,#ex1_traducao_9,
+#ex1_escrita_10,#ex1_pronuncia_10,#ex1_traducao_10{
+
+    padding: 8px; /* Espaçamento interno das células */
+    text-align: center; /* Alinhamento do texto no centro */
+    border-radius: 20px; /* Bordas redondas */
+    width: 50%; /* Largura da tabela */
+    border-collapse: collapse; /* Remove espaços entre as células */
+
+}
+/* ============================================================================================================= */
+
+/* Estilo para as células da tabela */
+.comprovar_1, .comprovar_2, .comprovar_3, 
+.comprovar_4, .comprovar_5, .comprovar_6, 
+.comprovar_7, .comprovar_8, .comprovar_9, 
+.comprovar_10,.comprovar_11, .comprovar_12, 
+.comprovar_13, .comprovar_14, .comprovar_15, 
+.comprovar_16, .comprovar_17, .comprovar_18, 
+.comprovar_19, .comprovar_20,.comprovar_21, 
+.comprovar_22, .comprovar_23, .comprovar_24, 
+.comprovar_25, .comprovar_26, .comprovar_27, 
+.comprovar_28, .comprovar_29, .comprovar_30
+{
+    border: 1px solid rgb(190, 18, 18); /* Borda das células */
+    padding: 8px; /* Espaçamento interno das células */
+    
+}
