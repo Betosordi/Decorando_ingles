@@ -1,10 +1,3 @@
-// Função para mostrar a tela escura
-function showDarkScreen() {
-document.getElementById('tela_estrelas').style.display = 'block';
-setTimeout(hideDarkScreen, 1000); // Esconde a tela escura após 5 segundos
-}
-//----------------------------------------------------------------------------
-
 // Executa o código quando a página for carregada
 document.addEventListener("DOMContentLoaded", function () {
 
