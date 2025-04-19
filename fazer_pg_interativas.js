@@ -127,13 +127,7 @@ function hideDarkScreen() {
 
 // função avançar
 function licao_2() {
-    // Seleciona a tabela com o id 'vinte_frases' e a div com a classe 'botoes_2'
-    const elements = document.querySelectorAll('#vinte_frases, .botoes_2');
-    // Itera sobre os elementos selecionados e altera o estilo de display para 'block'
-    elements.forEach(element => {
-        element.style.display = 'block';
-    });
-    //---------------------------------------------------------------------------------
+
     // Células do primeiro exercício
     // Seleciona os elementos de resposta
     const id_correta1 = document.getElementById("resposta_correta1");
@@ -610,7 +604,55 @@ function licao_2() {
     }
     //-------------------------------------------------------------------------------------------------
 
-    
+
+    // Seleciona a tabela com o id 'vinte_frases' e a div com a classe 'botoes_2'
+    const elements = document.querySelectorAll('#vinte_frases, .botoes_2');
+    // Itera sobre os elementos selecionados e altera o estilo de display para 'block'
+    elements.forEach(element => {
+        element.style.display = 'block';
+    });
+    //---------------------------------------------------------------------------------
+
+
+    // IDs dos elementos que você quer verificar
+    const ids = [
+        "resposta_correta1", "resposta_correta2", "resposta_correta3",
+        "resposta_correta4", "resposta_correta5", "resposta_correta6",
+        "resposta_correta7", "resposta_correta8", "resposta_correta9",
+        "resposta_correta10", "resposta_correta11", "resposta_correta12",
+        "resposta_correta13", "resposta_correta14", "resposta_correta15",
+        "resposta_correta16", "resposta_correta17", "resposta_correta18",
+        "resposta_correta19", "resposta_correta20", "resposta_correta21",
+        "resposta_correta22", "resposta_correta23", "resposta_correta24",
+        "resposta_correta25", "resposta_correta26", "resposta_correta27",
+        "resposta_correta28", "resposta_correta29", "resposta_correta30"
+    ];
+
+    // Verifica se todos os elementos estão visíveis
+    const todosVisiveis = ids.every(id => {
+        const elemento = document.getElementById(id);
+        return getComputedStyle(elemento).display === 'block';
+    });
+
+    // Exibe a mensagem se todos os elementos estiverem visíveis
+    if (todosVisiveis) {
+        alert("Parabéns, você acertou! Agora clique em OK para continuar.");
+            // Seleciona a tabela com o id 'vinte_frases' e a div com a classe 'botoes_2'
+            const elements = document.querySelectorAll('#vinte_frases, .botoes_2');
+            // Itera sobre os elementos selecionados e altera o estilo de display para 'block'
+            elements.forEach(element => {
+                element.style.display = 'block';
+            });
+        //---------------------------------------------------------------------------------
+    } else {
+        alert("Você ainda não acertou todas as respostas. Tente novamente.");
+                // Seleciona a tabela com o id 'vinte_frases' e a div com a classe 'botoes_2'
+                const elements = document.querySelectorAll('#vinte_frases, .botoes_2');
+                // Itera sobre os elementos selecionados e altera o estilo de display para 'block'
+                elements.forEach(element => {
+                    element.style.display = 'none';
+                });
+    }
 
 
 
