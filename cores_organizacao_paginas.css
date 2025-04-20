@@ -298,3 +298,10 @@ th {
     padding: 8px; /* Espaçamento interno das células */
     
 }
+
+/* Imagens para dicas */
+#dica_imagem{
+    width: 80px; /* Largura da imagem */
+    height: 80px; /* Altura automática para manter a proporção */
+    border-radius: 10px; /* Bordas redondas */
+}
