@@ -71,12 +71,18 @@ body {
 #versiculo_h1 {
     color: #FFD700; /* Cor dourada */
     background-color: #640d0db9; /* Cor de fundo */
-    font-size: 16px; /* Tamanho da fonte */
+    font-size: 11px; /* Tamanho da fonte */
     text-align: center; /* Alinhamento do texto */
     font-family: 'Great Vibes', cursive; /* Fonte elegante */
     border-radius: 15px; /* Bordas redondas */
     border: 1px solid #FFD700; /* Adiciona uma borda dourada */
-    width: 1200px; /* Largura da div */
+    width: 1050px; /* Largura da div */   
+    height: 110px; /* Altura automática para manter a proporção */
+
+    /* Flexbox para centralizar */
+    display: flex; /* Define o layout flexível */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
     
 }
 
@@ -85,7 +91,7 @@ body {
 #animacao_h1 {
     color: #FFFFFF; /* Cor do texto */
     background-color: transparent; /* Cor de fundo transparente */
-    font-size: 13px; /* Tamanho da fonte */
+    font-size: 11px; /* Tamanho da fonte */
     text-align: center; /* Alinhamento do texto */
 }
 
@@ -120,7 +126,7 @@ body {
 #animacao_h2 {
     color: #FFFFFF; /* Cor do texto */
     background-color: transparent; /* Cor de fundo transparente */
-    font-size: 13px; /* Tamanho da fonte */
+    font-size: 11px; /* Tamanho da fonte */
     text-align: center; /* Alinhamento do texto */
     border-radius: 20px; /* Bordas redondas */
     border: 1px solid #141413; /* Adiciona uma borda dourada */
@@ -130,7 +136,7 @@ body {
 #animacao_h3 {
     color: #FFFFFF; /* Cor do texto */
     background-color: transparent; /* Cor de fundo transparente */
-    font-size: 13px; /* Tamanho da fonte */
+    font-size: 11px; /* Tamanho da fonte */
     text-align: center; /* Alinhamento do texto */
     border-radius: 20px; /* Bordas redondas */
     border: 1px solid #141413; /* Adiciona uma borda dourada */
@@ -168,7 +174,7 @@ display: none; /* Inicialmente escondida */
 table{
 width: 100%; /* Largura da tabela */
 border-collapse: collapse; /* Remove espaços entre as células */
-font-size: 13px; /* Tamanho da fonte */
+font-size: 11px; /* Tamanho da fonte */
 }
 
 
@@ -178,7 +184,7 @@ border: 1px solid rgb(190, 18, 18); /* Borda das células */
 padding: 8px; /* Espaçamento interno das células */
 text-align: center; /* Alinhamento do texto no centro */
 /*border-radius: 20px; /* Bordas redondas */
-font-size: 13px; /* Tamanho da fonte */
+font-size: 11px; /* Tamanho da fonte */
 }
 
 /* Estilo para as linhas da tabela */
@@ -188,7 +194,7 @@ font-size: 13px; /* Tamanho da fonte */
 /* Estilo para os cabeçalhos da tabela */
 th {
  background-color: #072ff4; /* Cor de fundo dos cabeçalhos */
- font-size: 13px; /* Tamanho da fonte */
+ font-size: 11px; /* Tamanho da fonte */
  /*border-radius: 20px;  Bordas redondas */
 }
 
@@ -230,7 +236,7 @@ th {
     height: 1px; /* Ajusta a altura para 1 pixel */
     font-family: 'Great Vibes', cursive; /* Fonte elegante */
     animation: piscar 1s infinite; /* Animação de piscar */ 
-    font-size: 11px; /* Tamanho da fonte */   
+    font-size: 13px; /* Tamanho da fonte */   
 }
 
 #resposta_incorreta1,#resposta_incorreta2,#resposta_incorreta3,
@@ -250,7 +256,7 @@ th {
     height: 1px; /* Ajusta a altura para 1 pixel */
     font-family: 'Great Vibes', cursive; /* Fonte elegante */
     animation: piscar 1s infinite; /* Animação de piscar */
-    font-size: 11px; /* Tamanho da fonte */
+    font-size: 13px; /* Tamanho da fonte */
 }
 /* ============================================================================================================= */
 
@@ -266,12 +272,12 @@ th {
 #ex1_escrita_9,#ex1_pronuncia_9,#ex1_traducao_9,
 #ex1_escrita_10,#ex1_pronuncia_10,#ex1_traducao_10{
 
-    padding: 8px; /* Espaçamento interno das células */
+    padding: 5px; /* Espaçamento interno das células */
     text-align: center; /* Alinhamento do texto no centro */
-    border-radius: 20px; /* Bordas redondas */
-    width: 50%; /* Largura da tabela */
+    border-radius: 10px; /* Bordas redondas */
+    width: 85%; /* Largura da tabela */
     border-collapse: collapse; /* Remove espaços entre as células */
-    
+    font-size: 11px; /* Tamanho da fonte */
 
 }
 /* ============================================================================================================= */
