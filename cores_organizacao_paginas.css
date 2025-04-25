@@ -27,6 +27,15 @@ body {
 }
 
 /* ============================================================================================================= */
+/* Botões de resposta rápidas */
+.botao_card_1,.botao_card_2,.botao_card_3,.botao_card_4,.botao_card_5,.botao_card_6,.botao_card_7,.botao_card_8,
+.botao_card_9,.botao_card_10{
+
+    text-align: center; /* Alinhamento do texto */
+    padding: 10px; /* Espaçamento interno das células */
+
+}
+
 
 /* DIV */
 .botoes_1,.botoes_2,.botoes_3,.botoes_4,.botoes_5,.botoes_6,.botoes_7,.botoes_8,.botoes_9,.botoes_10,.botoes_11,
@@ -97,8 +106,8 @@ body {
 
 #imagem_inicial {
 
-    width: 185px; /* Largura da imagem */
-    height: 155px; /* Altura automática para manter a proporção */
+    width: 130px; /* Largura da imagem */
+    height: 110px; /* Altura da imagem */
     border-radius: 25px; /* Bordas redondas */
 
 }
@@ -108,14 +117,15 @@ body {
     display: flex; /* Define o layout flexível */
     justify-content: center; /* Centraliza os elementos horizontalmente */
     align-items: center; /* Centraliza os elementos verticalmente */
-    gap: 90px; /* Espaçamento entre os elementos */
+    gap: 30px; /* Espaçamento entre os elementos */
+    
 }
 
 
 /* Editando as imagens nessa classe, tamanhos e bordas */
 .imagem_inicial img {
-    width: 185px; /* Largura da imagem */
-    height: 155px; /* Altura da imagem */
+    width: 130px; /* Largura da imagem */
+    height: 110px; /* Altura da imagem */
     border-radius: 25px; /* Bordas redondas */
     gap: 30px; /* Espaçamento entre os elementos */
     align-items: center;  
@@ -260,6 +270,19 @@ th {
 }
 /* ============================================================================================================= */
 
+/* Exercicios de 1 a 10 imputs*/
+#questao_1,#questao_2,#questao_3,#questao_4,#questao_5,#questao_6,#questao_7,#questao_8,#questao_9,#questao_10{
+
+    padding: 5px; /* Espaçamento interno das células */
+    text-align: center; /* Alinhamento do texto no centro */
+    border-radius: 10px; /* Bordas redondas */
+    width: 85%; /* Largura da tabela */
+    border-collapse: collapse; /* Remove espaços entre as células */
+    font-size: 11px; /* Tamanho da fonte */
+
+}
+
+
 /* Linhas dos exercicios primeira tabela */
 #ex1_escrita_1,#ex1_pronuncia_1,#ex1_traducao_1,
 #ex1_escrita_2,#ex1_pronuncia_2,#ex1_traducao_2,
@@ -304,4 +327,62 @@ th {
     width: 80px; /* Largura da imagem */
     height: 80px; /* Altura automática para manter a proporção */
     border-radius: 10px; /* Bordas redondas */
+}
+
+/* ============================================================================================================= */
+/* Perguntas  */
+.prova_1{
+    display: flex; /* Ativa o Flexbox */
+    flex-direction: column; /* Organiza os elementos em coluna */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    gap: 10px; /* Espaçamento entre os elementos */
+    border-radius: 50px; /* Bordas redondas */
+}
+
+/* ============================================================================================================= */
+/* Cabeçalho */
+#cabecalho_perguntas{
+
+    display: flex; /* Ativa o Flexbox */
+    flex-direction: column; /* Organiza os elementos em coluna */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    gap: 10px; /* Espaçamento entre os elementos */
+    width: 100%; /* Largura da tabela */
+    border-collapse: collapse; /* Remove espaços entre as células */
+    font-size: 11px; /* Tamanho da fonte */
+    
+    padding: 8px; /* Espaçamento interno das células */
+    text-align: center; /* Alinhamento do texto no centro */
+    background-color: #00f2fffb; /* Cor de fundo dos cabeçalhos */
+}
+/* ============================================================================================================= */
+#menu{
+
+    display: flex; /* Ativa o Flexbox */
+    flex-direction: column; /* Organiza os elementos em coluna */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    gap: 10px; /* Espaçamento entre os elementos */
+    width: 100%; /* Largura da tabela */
+    border-collapse: collapse; /* Remove espaços entre as células */
+    font-size: 11px; /* Tamanho da fonte */
+    
+    padding: 8px; /* Espaçamento interno das células */
+    text-align: center; /* Alinhamento do texto no centro */
+}
+
+.central_1,.central_2,.central_3,.central_4,.central_5,.central_6,.central_7,.central_8,.central_9,.central_10{
+    display: flex; /* Ativa o Flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    gap: 10px; /* Espaçamento entre os elementos */
+    width: 30%; /* Define a largura da div (ajuste conforme necessário) */
+    max-width: 600px; /* Define uma largura máxima */
+    height: auto; /* Altura automática */
+    padding: 20px; /* Espaçamento interno */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    color: rgb(230, 100, 7);
+    
 }
