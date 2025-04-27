@@ -118,7 +118,35 @@ document.addEventListener("DOMContentLoaded", function () {
     document.querySelector(".central_10").style.display = "none";
     document.querySelector(".botao_card_10").style.display = "none";
 
+    document.querySelector(".central_11").style.display = "none";
+    document.querySelector(".botao_card_11").style.display = "none";
 
+    document.querySelector(".central_12").style.display = "none";
+    document.querySelector(".botao_card_12").style.display = "none";
+
+    document.querySelector(".central_13").style.display = "none";
+    document.querySelector(".botao_card_13").style.display = "none";
+
+    document.querySelector(".central_14").style.display = "none";
+    document.querySelector(".botao_card_14").style.display = "none";
+
+    document.querySelector(".central_15").style.display = "none";
+    document.querySelector(".botao_card_15").style.display = "none";
+
+    document.querySelector(".central_16").style.display = "none";
+    document.querySelector(".botao_card_16").style.display = "none";
+
+    document.querySelector(".central_17").style.display = "none";
+    document.querySelector(".botao_card_17").style.display = "none";
+
+    document.querySelector(".central_18").style.display = "none";
+    document.querySelector(".botao_card_18").style.display = "none";
+
+    document.querySelector(".central_19").style.display = "none";
+    document.querySelector(".botao_card_19").style.display = "none";
+
+    document.querySelector(".central_20").style.display = "none";
+    document.querySelector(".botao_card_20").style.display = "none";   
 
 });
 //######################################################################################################################################
@@ -1013,8 +1041,8 @@ function AparecerDivCentral_11() {
     const QuestaoCard_10 = resposta_card_10.value.trim();
 
     // tags para aparecer
-    const classe_central_11 = document.querySelectorAll('#vinte_frases');
-    const botao_card11 = document.querySelectorAll('.botoes_2');
+    const classe_central_11 = document.querySelectorAll('.central_11');
+    const botao_card11 = document.querySelectorAll('.botao_card_11');
 
     // Verifica a condição para Texto_Escrita1
     if (["It is raining", "it is raining", "IT IS RAINING"].includes(QuestaoCard_10)) 
@@ -1040,6 +1068,368 @@ function AparecerDivCentral_11() {
 
 
 }
+
+//######################################################################################################################################
+function AparecerDivCentral_12() {
+
+    const resposta_card_11 = document.getElementById("questao_11");
+    
+    // Obtém os valores dos campos de preencher os exercícios
+    const QuestaoCard_11 = resposta_card_11.value.trim();
+
+    // tags para aparecer
+    const classe_central_12 = document.querySelectorAll('.central_12');
+    const botao_card12 = document.querySelectorAll('.botao_card_12');
+
+    // Verifica a condição para Texto_Escrita1
+    if (["Ai êm répi", "ai êm répi", "AI ÊM RÉPI"].includes(QuestaoCard_11)) 
+    {
+        alert("Parabéns, você acertou! Agora clique em OK para continuar.");
+        // Torna os elementos visíveis
+        classe_central_12.forEach(element => {
+            element.style.display = "block";
+        });
+        botao_card12.forEach(element => {
+            element.style.display = "block";
+        });
+    } else {
+
+        alert("Resposta errada! Tente novamente.");
+        // Torna os elementos visíveis
+        classe_central_12.forEach(element => {
+            element.style.display = "none";
+        });
+        botao_card12.forEach(element => {
+            element.style.display = "none";
+        });}
+
+
+}
+
+//######################################################################################################################################
+function AparecerDivCentral_13() {
+
+    const resposta_card_12 = document.getElementById("questao_12");
+    
+    // Obtém os valores dos campos de preencher os exercícios
+    const QuestaoCard_12 = resposta_card_12.value.trim();
+
+    // tags para aparecer
+    const classe_central_13 = document.querySelectorAll('.central_13');
+    const botao_card13 = document.querySelectorAll('.botao_card_13');
+
+    // Verifica a condição para Texto_Escrita1
+    if (["Shí iz mai frênd", "shí iz mai frênd", "SHÍ IZ MAI FRÊND"].includes(QuestaoCard_12)) 
+    {
+        alert("Parabéns, você acertou! Agora clique em OK para continuar.");
+        // Torna os elementos visíveis
+        classe_central_13.forEach(element => {
+            element.style.display = "block";
+        });
+        botao_card13.forEach(element => {
+            element.style.display = "block";
+        });
+    } else {
+
+        alert("Resposta errada! Tente novamente.");
+        // Torna os elementos visíveis
+        classe_central_13.forEach(element => {
+            element.style.display = "none";
+        });
+        botao_card13.forEach(element => {
+            element.style.display = "none";
+        });}
+
+
+}
+
+//######################################################################################################################################
+function AparecerDivCentral_14() {
+
+    const resposta_card_13 = document.getElementById("questao_13");
+    
+    // Obtém os valores dos campos de preencher os exercícios
+    const QuestaoCard_13 = resposta_card_13.value.trim();
+
+    // tags para aparecer
+    const classe_central_14 = document.querySelectorAll('.central_14');
+    const botao_card14 = document.querySelectorAll('.botao_card_14');
+
+    // Verifica a condição para Texto_Escrita1
+    if (["Ái wíl gô tu dê stôr", "ái wíl gô tu dê stôr", "ÁI WÍL GÔ TU DÊ STÔR"].includes(QuestaoCard_13)) 
+    {
+        alert("Parabéns, você acertou! Agora clique em OK para continuar.");
+        // Torna os elementos visíveis
+        classe_central_14.forEach(element => {
+            element.style.display = "block";
+        });
+        botao_card14.forEach(element => {
+            element.style.display = "block";
+        });
+    } else {
+
+        alert("Resposta errada! Tente novamente.");
+        // Torna os elementos visíveis
+        classe_central_14.forEach(element => {
+            element.style.display = "none";
+        });
+        botao_card14.forEach(element => {
+            element.style.display = "none";
+        });}
+
+
+}
+
+
+//######################################################################################################################################
+function AparecerDivCentral_15() {
+
+    const resposta_card_14 = document.getElementById("questao_14");
+    
+    // Obtém os valores dos campos de preencher os exercícios
+    const QuestaoCard_14 = resposta_card_14.value.trim();
+
+    // tags para aparecer
+    const classe_central_15 = document.querySelectorAll('.central_15');
+    const botao_card15 = document.querySelectorAll('.botao_card_15');
+
+    // Verifica a condição para Texto_Escrita1
+    if (["Wí ar stúdents", "wí ar stúdents", "WÍ AR STÚDENTS"].includes(QuestaoCard_14)) 
+    {
+        alert("Parabéns, você acertou! Agora clique em OK para continuar.");
+        // Torna os elementos visíveis
+        classe_central_15.forEach(element => {
+            element.style.display = "block";
+        });
+        botao_card15.forEach(element => {
+            element.style.display = "block";
+        });
+    } else {
+
+        alert("Resposta errada! Tente novamente.");
+        // Torna os elementos visíveis
+        classe_central_15.forEach(element => {
+            element.style.display = "none";
+        });
+        botao_card15.forEach(element => {
+            element.style.display = "none";
+        });}
+}
+
+//######################################################################################################################################
+function AparecerDivCentral_16() {
+
+    const resposta_card_15 = document.getElementById("questao_15");
+    
+    // Obtém os valores dos campos de preencher os exercícios
+    const QuestaoCard_15 = resposta_card_15.value.trim();
+
+    // tags para aparecer
+    const classe_central_16 = document.querySelectorAll('.central_16');
+    const botao_card16 = document.querySelectorAll('.botao_card_16');
+
+    // Verifica a condição para Texto_Escrita1
+    if (["Dêi ar wêrking náu", "dêi ar wêrking náu", "DÊI AR WERKING NÁU"].includes(QuestaoCard_15)) 
+    {
+        alert("Parabéns, você acertou! Agora clique em OK para continuar.");
+        // Torna os elementos visíveis
+        classe_central_16.forEach(element => {
+            element.style.display = "block";
+        });
+        botao_card16.forEach(element => {
+            element.style.display = "block";
+        });
+    } else {
+
+        alert("Resposta errada! Tente novamente.");
+        // Torna os elementos visíveis
+        classe_central_16.forEach(element => {
+            element.style.display = "none";
+        });
+        botao_card16.forEach(element => {
+            element.style.display = "none";
+        });}
+}
+
+//######################################################################################################################################
+function AparecerDivCentral_17() {
+
+    const resposta_card_16 = document.getElementById("questao_16");
+    
+    // Obtém os valores dos campos de preencher os exercícios
+    const QuestaoCard_16 = resposta_card_16.value.trim();
+
+    // tags para aparecer
+    const classe_central_17 = document.querySelectorAll('.central_17');
+    const botao_card17 = document.querySelectorAll('.botao_card_17');
+
+    // Verifica a condição para Texto_Escrita1
+    if (["It iz réining", "it iz réining", "IT IZ RÉINING"].includes(QuestaoCard_16)) 
+    {
+        alert("Parabéns, você acertou! Agora clique em OK para continuar.");
+        // Torna os elementos visíveis
+        classe_central_17.forEach(element => {
+            element.style.display = "block";
+        });
+        botao_card17.forEach(element => {
+            element.style.display = "block";
+        });
+    } else {
+
+        alert("Resposta errada! Tente novamente.");
+        // Torna os elementos visíveis
+        classe_central_17.forEach(element => {
+            element.style.display = "none";
+        });
+        botao_card17.forEach(element => {
+            element.style.display = "none";
+        });}
+}
+
+
+//######################################################################################################################################
+function AparecerDivCentral_18() {
+
+    const resposta_card_17 = document.getElementById("questao_17");
+    
+    // Obtém os valores dos campos de preencher os exercícios
+    const QuestaoCard_17 = resposta_card_17.value.trim();
+
+    // tags para aparecer
+    const classe_central_18 = document.querySelectorAll('.central_18');
+    const botao_card18 = document.querySelectorAll('.botao_card_18');
+
+    // Verifica a condição para Texto_Escrita1
+    if (["Ái dount anderstênd", "ái dount anderstênd", "ÁI DOUNT ANDERSTÊND"].includes(QuestaoCard_17)) 
+    {
+        alert("Parabéns, você acertou! Agora clique em OK para continuar.");
+        // Torna os elementos visíveis
+        classe_central_18.forEach(element => {
+            element.style.display = "block";
+        });
+        botao_card18.forEach(element => {
+            element.style.display = "block";
+        });
+    } else {
+
+        alert("Resposta errada! Tente novamente.");
+        // Torna os elementos visíveis
+        classe_central_18.forEach(element => {
+            element.style.display = "none";
+        });
+        botao_card18.forEach(element => {
+            element.style.display = "none";
+        });}
+}
+
+//######################################################################################################################################
+function AparecerDivCentral_19() {
+
+    const resposta_card_18 = document.getElementById("questao_18");
+    
+    // Obtém os valores dos campos de preencher os exercícios
+    const QuestaoCard_18 = resposta_card_18.value.trim();
+
+    // tags para aparecer
+    const classe_central_19 = document.querySelectorAll('.central_19');
+    const botao_card19 = document.querySelectorAll('.botao_card_19');
+
+    // Verifica a condição para Texto_Escrita1
+    if (["Kên iú rélp mí?", "kên iú rélp mí?", "KÊN IÚ RELP MÍ"].includes(QuestaoCard_18)) 
+    {
+        alert("Parabéns, você acertou! Agora clique em OK para continuar.");
+        // Torna os elementos visíveis
+        classe_central_19.forEach(element => {
+            element.style.display = "block";
+        });
+        botao_card19.forEach(element => {
+            element.style.display = "block";
+        });
+    } else {
+
+        alert("Resposta errada! Tente novamente.");
+        // Torna os elementos visíveis
+        classe_central_19.forEach(element => {
+            element.style.display = "none";
+        });
+        botao_card19.forEach(element => {
+            element.style.display = "none";
+        });}
+}
+
+//######################################################################################################################################
+function AparecerDivCentral_20() {
+
+    const resposta_card_19 = document.getElementById("questao_19");
+    
+    // Obtém os valores dos campos de preencher os exercícios
+    const QuestaoCard_19 = resposta_card_19.value.trim();
+
+    // tags para aparecer
+    const classe_central_20 = document.querySelectorAll('.central_20');
+    const botao_card20 = document.querySelectorAll('.botao_card_20');
+
+    // Verifica a condição para Texto_Escrita1
+    if (["Wót táim iz it?", "wót táim iz it?", "WÓT TÁIM IZ IT?"].includes(QuestaoCard_19)) 
+    {
+        alert("Parabéns, você acertou! Agora clique em OK para continuar.");
+        // Torna os elementos visíveis
+        classe_central_20.forEach(element => {
+            element.style.display = "block";
+        });
+        botao_card20.forEach(element => {
+            element.style.display = "block";
+        });
+    } else {
+
+        alert("Resposta errada! Tente novamente.");
+        // Torna os elementos visíveis
+        classe_central_20.forEach(element => {
+            element.style.display = "none";
+        });
+        botao_card20.forEach(element => {
+            element.style.display = "none";
+        });}
+}
+
+
+//######################################################################################################################################
+function AparecerDivCentral_21() {
+
+    const resposta_card_20 = document.getElementById("questao_20");
+    
+    // Obtém os valores dos campos de preencher os exercícios
+    const QuestaoCard_20 = resposta_card_20.value.trim();
+
+    // tags para aparecer
+    const classe_central_21 = document.querySelectorAll('#vinte_frases');
+    const botao_card21 = document.querySelectorAll('.botoes_2');
+
+    // Verifica a condição para Texto_Escrita1
+    if (["Ái êm hângri", "ái êm hângri", "ÁI ÊM HÂNGRI"].includes(QuestaoCard_20)) 
+    {
+        alert("Parabéns, você acertou! Agora clique em OK para continuar.");
+        // Torna os elementos visíveis
+        classe_central_21.forEach(element => {
+            element.style.display = "block";
+        });
+        botao_card21.forEach(element => {
+            element.style.display = "block";
+        });
+    } else {
+
+        alert("Resposta errada! Tente novamente.");
+        // Torna os elementos visíveis
+        classe_central_21.forEach(element => {
+            element.style.display = "none";
+        });
+        botao_card21.forEach(element => {
+            element.style.display = "none";
+        });}
+}
+
+
+
 
 
 //==================================================================================
