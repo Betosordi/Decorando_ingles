@@ -29,7 +29,8 @@ body {
 /* ============================================================================================================= */
 /* Botões de resposta rápidas */
 .botao_card_1,.botao_card_2,.botao_card_3,.botao_card_4,.botao_card_5,.botao_card_6,.botao_card_7,.botao_card_8,
-.botao_card_9,.botao_card_10{
+.botao_card_9,.botao_card_10,.botao_card_11,.botao_card_12,.botao_card_13,.botao_card_14,
+.botao_card_15,.botao_card_16,.botao_card_17,.botao_card_18,.botao_card_19,.botao_card_20{
 
     text-align: center; /* Alinhamento do texto */
     padding: 10px; /* Espaçamento interno das células */
@@ -271,7 +272,9 @@ th {
 /* ============================================================================================================= */
 
 /* Exercicios de 1 a 10 imputs*/
-#questao_1,#questao_2,#questao_3,#questao_4,#questao_5,#questao_6,#questao_7,#questao_8,#questao_9,#questao_10{
+#questao_1,#questao_2,#questao_3,#questao_4,#questao_5,#questao_6,#questao_7,#questao_8,#questao_9,#questao_10,
+#questao_11,#questao_12,#questao_13,#questao_14,#questao_15,#questao_16,#questao_17,#questao_18,#questao_19,#questao_20
+{
 
     padding: 5px; /* Espaçamento interno das células */
     text-align: center; /* Alinhamento do texto no centro */
@@ -373,7 +376,9 @@ th {
     text-align: center; /* Alinhamento do texto no centro */
 }
 
-.central_1,.central_2,.central_3,.central_4,.central_5,.central_6,.central_7,.central_8,.central_9,.central_10{
+.central_1,.central_2,.central_3,.central_4,.central_5,.central_6,.central_7,.central_8,.central_9,.central_10,
+.central_11,.central_12,.central_13,.central_14,.central_15,.central_16,.central_17,.central_18,.central_19,.central_20
+{
     display: flex; /* Ativa o Flexbox */
     justify-content: center; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
